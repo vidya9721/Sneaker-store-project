@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main page  */
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    overflow-x: hidden;
+}
+.store{
+    width: 50%;
+    margin: auto;
+    min-height: 100%;
+    /* background-color: rgb(112, 170, 221); */
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    color: chartreuse;
+    
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.shoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.card{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 60%;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 7px 7px 10px rgb(206, 205, 205);
+    margin-bottom: 20px;
+}
+/* adjust the size of shoes image according to the card height    */
+/* .card div:nth-child(1)>img{
+    width: 100%;
+    height: 100%;
+} */
+.image{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.image >img{
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+.image >img:hover{
+    scale: 1.1;
+    transition: 0.5s all ease-out;
+} 
+.details p{
+    font-size: 11px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .icon{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* display: inline-block; */
+.discription{
+    display: flex;
+    flex-direction: column;
+    width: 1000%;
+    gap: 3px;
+}
+.icon >img{
+    width: 60%;
+}
